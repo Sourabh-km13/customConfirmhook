@@ -1,8 +1,4 @@
-# React + Vite
+# React Custom hook implementation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-made a custom hook named confirmhook which gives a modal of confirm or deny and based on option selected operations can be performed
+-when Confirmhook function is called it returns a promise. it is resolved when confirm button is clicked and rejected when deny button is clicked
